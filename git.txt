@@ -12,3 +12,6 @@ git clone 주소 . 현재 폴더(local 이 없을때)
 git config --list : 설정된 파일 목록을 확인할 수 있다.
 
 git push (-u origin "branch 이름") : 로컬에 있는걸 github에 업로드
+
+(HEAD -> main, origin/main, origin/HEAD) 로컬에는 사진이 더 있는데 원격에 안올라간 상태
+
