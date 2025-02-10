@@ -7,3 +7,6 @@ commit (-m)
 checkout
 
 작은 화면일때 j, k로 위아래로 갈 수 있다 / q빠려나오기
+
+git clone 주소 . 현재 폴더
+git config --list 
