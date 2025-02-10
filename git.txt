@@ -14,4 +14,6 @@ git config --list : 설정된 파일 목록을 확인할 수 있다.
 git push (-u origin "branch 이름") : 로컬에 있는걸 github에 업로드
 
 (HEAD -> main, origin/main, origin/HEAD) 로컬에는 사진이 더 있는데 원격에 안올라간 상태
+git fetch : 바뀐 원격을 fetch명령으로 확인 후
+git full : 원격에 있는 정보를 다운로드
 
