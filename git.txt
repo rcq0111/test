@@ -2,6 +2,8 @@ init
 status
 log
 config(이메일, 유저명 등록. 1회만 하면됨)
-add
+add (git add . ) -> 전부 올려준다
 commit (-m)
 checkout
+
+작은 화면일때 j, k로 위아래로 갈 수 있다 / q빠려나오기
