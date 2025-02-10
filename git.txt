@@ -18,3 +18,5 @@ git fetch : 바뀐 원격을 fetch명령으로 확인 후
 git full : 원격에 있는 정보를 다운로드
 
 충돌이 났을때 원격을 살리는 방법은 local을 지우고 원격에 있는걸 가져온다 clone
+
+esc : q 로 marge 병합하기
