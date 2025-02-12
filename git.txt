@@ -25,3 +25,38 @@ esc : q 로 marge 병합하기
 git remote remove origin : 기존 origin 제거
 
 서로 다른 파일을 수정하면 auto병합이 가능하다
+
+
+
+day03 git
+
+git branch
+* main
+git branch temp
+git switch temp
+main -> temp
+git checkout main 
+temp -> main
+git merge temp
+main에 temp 병합
+
+git branch -d temp
+temp삭제
+
+git log --oneline
+git log --oneline --graph
+
+git remote -v 현재 원격 로칼 주소만 알 수 있다.
+
+github에서 fork하는 방법.
+{
+fork : 상대방 리포지티에서 fork
+clone : .py프로잭트안에 clone (안되면 프로잭트를 비워야댐)
+branch 
+switch (checkout) : git branch (추가할 branch이름) -> git switch (branch이름)으로 main이 아닌 branch이름으로 변경
+(git branch : 로 잘 바꼈는지 확인)
+소스코드 수정(add /commit/push(push -u origin ____)) 
+pull request (memo) : github에서 컨트리뷰트 들어가서 pull request 한다
+branch -d : 만든 branch 명 삭제 후 원래 branch명으로 바꾼다
+원본 리포지토리 clone
+}
